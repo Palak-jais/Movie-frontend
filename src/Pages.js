@@ -11,7 +11,7 @@ return(
     {
         pageNumber.map(number=>(
             <li key={number} className='page-item'>
-            <a href="#" className='page-link' onClick={()=>paginate(number)}>
+            <a className='page-link' onClick={()=>paginate(number)}>
                 {number}
             </a>
             </li>
