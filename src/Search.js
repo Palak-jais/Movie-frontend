@@ -1,4 +1,4 @@
-import React,{createContext, useContext} from 'react';
+import React,{ useContext} from 'react';
 import { MovieContext } from './App';
 
 function Search(){
