@@ -3,7 +3,7 @@ import { AddMovie,updateMovie } from './utils/handleAPI';
 import { MovieContext } from './App';
 
 function Body(){
-  const{name,setName,genre,setGenre,leadstudio,setLeadstudio,audiencescore,setAudiencescore,profitability,setProfitability,rottentomatoes,setRottentomatoes,worldwidegross,setWorldwidegross,year,setYear,movie,setMovie,loading,setLoading,update,setIsupdate,movieid,setMovieid}=useContext(MovieContext);
+  const{name,setName,genre,setGenre,leadstudio,setLeadstudio,audiencescore,setAudiencescore,profitability,setProfitability,rottentomatoes,setRottentomatoes,worldwidegross,setWorldwidegross,year,setYear,setMovie,update,setIsupdate,movieid}=useContext(MovieContext);
   
 
   
